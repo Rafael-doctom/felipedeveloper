@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timer Avançado</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+    <div class="timer">
+        <div class="timer__controls">
+            <button data-time="20" class="timer__button">20 Segundos</button>
+            <button data-time="300" class="timer__button">5 minutos</button>
+            <button data-time="900" class="timer__button">15 Minutos</button>
+            <button data-time="1200" class="timer__button">20 minutos</button>
+            <button data-time="3600" class="timer__button">1 Hora</button>
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Informe os Minutos">
+            </form>
+        </div>
+        <div class="display">
+            <h1 class="display__time-left"></h1>
+            <p class="display__end-time"></p>
+        </div>
+    </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
